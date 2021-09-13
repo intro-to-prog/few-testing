@@ -11,7 +11,7 @@
     "ci:clean": "rimraf ./dist",
     "ci:test": "ng test --watch=false --browsers=ChromeHeadlessCustom --code-coverage",
     "ci:build": "ng build --prod",
-    "lint": "ng lint"
+    "lint": "ng lint",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
